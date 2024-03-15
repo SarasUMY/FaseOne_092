@@ -18,6 +18,7 @@ class _MenuWidgetState extends State<MenuWidget> {
   @override
   Widget build(BuildContext context) {
     return Form(
+      key: widget.formkey,
       child: Column(
         children: [
           TextFormField(
